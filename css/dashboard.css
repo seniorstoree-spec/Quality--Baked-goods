@@ -1,0 +1,1 @@
+.kpi{display:grid;gap:6px}.kpi strong{font-size:28px;color:#111827}.chart-box{min-height:280px}.mini-bars{display:grid;gap:10px}.bar-row{display:grid;grid-template-columns:130px 1fr 42px;gap:10px;align-items:center}.bar{height:12px;border-radius:999px;background:#e5e7eb;overflow:hidden}.bar span{display:block;height:100%;background:var(--primary-color)}

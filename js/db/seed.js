@@ -1,0 +1,1 @@
+import{create,getAll,upsert}from"../db/db-service.js";import{products,criticalLimits}from"../db/seed-data.js";export async function seedMasterData(){if(!(await getAll("Product")).length){for(const p of products)await upsert("Product",p)}if(!(await getAll("CriticalLimit")).length){for(const l of criticalLimits)await upsert("CriticalLimit",l)}}
